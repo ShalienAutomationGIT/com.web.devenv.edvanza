@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Build Failed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5240" started-at="2023-05-29T13:32:58 IST" finished-at="2023-05-29T13:33:04 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5240" started-at="2023-05-29T13:32:58 IST" finished-at="2023-05-29T13:33:04 IST">
+      <class name="com.tests.edvanza.SignUPEmailFlowTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tests.edvanza.SignUPEmailFlowTest@17579e0f]" name="setUp" is-config="true" duration-ms="6052" started-at="2023-05-29T13:32:52 IST" finished-at="2023-05-29T13:32:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testbuildverification()[pri:1, instance:com.tests.edvanza.SignUPEmailFlowTest@17579e0f]" name="testbuildverification" duration-ms="90" started-at="2023-05-29T13:32:58 IST" description="TC1: To Check build verification and stability" finished-at="2023-05-29T13:32:58 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Build Failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testbuildverification -->
+        <test-method status="PASS" signature="testPreSignUpFlow()[pri:2, instance:com.tests.edvanza.SignUPEmailFlowTest@17579e0f]" name="testPreSignUpFlow" duration-ms="3034" started-at="2023-05-29T13:32:58 IST" description="TC2: Pre SignUp Screen Test case" finished-at="2023-05-29T13:33:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPreSignUpFlow -->
+        <test-method status="PASS" signature="testSignUpEmailScreens()[pri:3, instance:com.tests.edvanza.SignUPEmailFlowTest@17579e0f]" name="testSignUpEmailScreens" duration-ms="2021" started-at="2023-05-29T13:33:02 IST" description="TC3: Verify SignUp Email Screens" finished-at="2023-05-29T13:33:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpEmailScreens -->
+        <test-method status="PASS" signature="testOnboardingFlow()[pri:4, instance:com.tests.edvanza.SignUPEmailFlowTest@17579e0f]" name="testOnboardingFlow" duration-ms="11" started-at="2023-05-29T13:33:04 IST" description="TC4: Verify Onboarding Screens" finished-at="2023-05-29T13:33:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOnboardingFlow -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.edvanza.SignUPEmailFlowTest@17579e0f]" name="tearDown" is-config="true" duration-ms="2107" started-at="2023-05-29T13:33:04 IST" finished-at="2023-05-29T13:33:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.edvanza.SignUPEmailFlowTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

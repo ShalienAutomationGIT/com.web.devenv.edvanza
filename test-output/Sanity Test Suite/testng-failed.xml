@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sanity Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Happy Path Automated - Email Flow(failed)">
+    <classes>
+      <class name="com.tests.edvanza.SignUpScreenTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testsignUpScreen"/>
+        </methods>
+      </class> <!-- com.tests.edvanza.SignUpScreenTest -->
+    </classes>
+  </test> <!-- Happy Path Automated - Email Flow(failed) -->
+</suite> <!-- Failed suite [Sanity Test Suite] -->
